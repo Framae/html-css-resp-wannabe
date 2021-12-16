@@ -77,7 +77,21 @@ img {
     #lezioni .row>.left,
     #lezioni .row>.right {
     width: 50%;
-    height: 100px;
     float: none;
-  } 
+  }
+  
+  #lezioni .row img {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  #lezioni .row {
+    background-color: burlywood;
+    width: 100%;
+  }
+
+  #lezioni .row h1 {
+     
+  }
 }
