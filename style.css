@@ -114,3 +114,23 @@ img {
   }  
 }
 
+@media (max-width: 419px) {
+  
+  #why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  float: none;
+  width: 100%;
+}
+
+#why .row img {
+  margin: auto;
+  width: 60%;
+  margin: 20px 0;
+}
+
+#why .row {
+  width: 100%;
+}  
+}
+
