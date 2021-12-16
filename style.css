@@ -76,22 +76,19 @@ img {
 @media  (max-width: 419px) {
     #lezioni .row>.left,
     #lezioni .row>.right {
-    width: 50%;
+    width: 100%;
+    margin: auto;
     float: none;
   }
   
   #lezioni .row img {
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+    margin: auto;
+    width: 60%;
   }
 
   #lezioni .row {
+    margin-top: 0;
     background-color: burlywood;
     width: 100%;
-  }
-
-  #lezioni .row h1 {
-     
   }
 }
